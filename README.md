@@ -1,0 +1,3 @@
+## READ ME
+
+The coral reef model simulates how a coral reef changes over time, starting from 2004 to 2024 with coral either growing, staying the same, or dying. Each time step is every two years and random events like storms or heatwaves can affect the reef and change how the coral grows or survives. Whether a piece of coral in the cell dies, lives, or grows is determind by rolling a 6 sided dice and then an 8 sided depeneding on the result of previous roll.
