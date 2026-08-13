@@ -18,3 +18,17 @@ initialize_reef <- function(coral_number) {
   return(reef)
 }
 initialize_reef(10)
+
+growth <- function(coral_outcome) {
+  coral_outcome <- sum(sample(1:6, size = 2, replace = TRUE))
+        if (coral_outcome <= 3) {
+          reed [r, c] <- 0
+          print("Coral died")
+        } else {
+          reef[r, c] <- 1
+          print("Coral survived")
+        }
+  return(reef)
+}
+
+
