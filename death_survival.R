@@ -1,14 +1,23 @@
+
+
+source("util.R")
+
 set.seed(221)
 
+initialize_reef(8)
+
+
+
 # STEP 1: Initialize your reef
-reef <- t(matrix(data = 0, nrow = 5, ncol = 5))
-random <- sample(1:25, size = 8)
-for (rc in random) {
-    rc_row <- (rc - 1) %/% 5 + 1
-    rc_col <- (rc - 1) %% 5 + 1
-    reef[rc_row, rc_col] <- 1
-  print(reef)
-}
+# this code works, just saving it for future reference
+# reef <- t(matrix(data = 0, nrow = 5, ncol = 5))
+# random <- sample(1:25, size = 8)
+# for (rc in random) {
+ #   rc_row <- (rc - 1) %/% 5 + 1
+ #   rc_col <- (rc - 1) %% 5 + 1
+ #   reef[rc_row, rc_col] <- 1
+ # print(reef)
+#}
 
 
 # Your reef should look like this:
